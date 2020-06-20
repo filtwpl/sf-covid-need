@@ -19,3 +19,4 @@ df = df.sort_values('rate', ascending=False)
 
 st.title("MFACA Recommended Mask Drive Sites")
 st.write(df['id'].values[0] + ", " + df['id'].values[1] + ", " + df['id'].values[2])
+st.dataframe(df)
